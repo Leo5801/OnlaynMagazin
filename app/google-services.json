@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "53824684668",
+    "project_id": "o-nlayn-magazin-3cd9a",
+    "storage_bucket": "o-nlayn-magazin-3cd9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53824684668:android:06fb66d2d52e0d13c0fff9",
+        "android_client_info": {
+          "package_name": "com.example.onlaynmagazin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53824684668-i7t0s959i8bdf1vgik4dsg96cfbdu4ro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlaynmagazin",
+            "certificate_hash": "074bdc1596ee72f7e721ab41228a0acd2fe144e0"
+          }
+        },
+        {
+          "client_id": "53824684668-vnc0uf8n1m3988f06qigcmq7l79v3eth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrIbWG1sDlZveqIXJqDXKzGIu8Q-rXVws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53824684668-vnc0uf8n1m3988f06qigcmq7l79v3eth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

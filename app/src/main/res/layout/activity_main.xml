@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittextbackground"
+        android:padding="10dp"
+        android:text="asad@gmail.com"
+        android:hint="Email@gmail.com"
+        android:id="@+id/edittext5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittextbackground"
+        android:padding="10dp"
+        android:text="123456789"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/edittext6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/buttonbackground"
+            android:textColor="@color/white"
+            android:id="@+id/buttonlogin"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="Войти"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/buttonbackground"
+            android:textColor="@color/white"
+            android:id="@+id/buttonregister2"
+            android:layout_weight="1"
+            android:text="Register"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

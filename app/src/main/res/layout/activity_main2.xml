@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittextbackground"
+        android:padding="10dp"
+        android:id="@+id/edittext1"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittextbackground"
+        android:padding="10dp"
+        android:id="@+id/edittext2"
+        android:hint="Surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittextbackground"
+        android:padding="10dp"
+        android:id="@+id/edittext3"
+        android:hint="Email@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittextbackground"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/edittext4"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Register"
+        android:id="@+id/buttonregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

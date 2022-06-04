@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:text="Add new Category"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+
+        <ImageView
+            android:src="@drawable/placeholder"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageviewselected"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:background="@drawable/edittextbackground"
+        android:padding="10dp"
+        android:hint="Categoryname"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/edittextcategoryname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/buttonbackground"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:id="@+id/buttoncategoryadd"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Add new category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:id="@+id/recyclerview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
